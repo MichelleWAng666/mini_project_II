@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS "Yelp" (
+"id" TEXT,
+  "name" TEXT,
+  "location.city" TEXT,
+  "review_count" INTEGER,
+  "rating" REAL,
+  "distance" REAL,
+  "categories" TEXT
+);
+CREATE TABLE IF NOT EXISTS "Foursqarue" (
+"id" TEXT,
+  "name" TEXT,
+  "location.city" TEXT,
+  "review_count" INTEGER,
+  "rating" REAL,
+  "distance" REAL
+);
